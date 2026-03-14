@@ -21,7 +21,7 @@ connections:
     type: uses
   - target: paper-polisher
     type: uses
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: academic-writing-standards
     type: references
@@ -108,3 +108,42 @@ Stages 1-3 are strictly sequential — each depends on the previous output. Stag
 - After Stage 3: Thesis must pass all five strength-test criteria
 - After Stage 4: Each section must meet minimum word count and citation density
 - After Stage 5: Final paper must pass the holistic quality checklist
+
+## Inputs
+
+| Name | Required | Description | Example |
+|------|----------|-------------|---------|
+| `{{input.a_broad_subject_area}}` | Yes | A broad subject area or assignment brief | `Paste the relevant brief, notes, source material, or dataset here.` |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| A focused, arguable research question | A focused, arguable research question with defined scope |
+| A structured literature map using literature-map-template | A structured literature map using literature-map-template |
+| A thesis statement | A thesis statement with three supporting arguments and anticipated counterarguments |
+| Complete draft sections | Complete draft sections |
+| Submission-ready paper | Submission-ready paper with revision notes |
+
+## Setup
+
+Before running this workflow:
+
+1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
+2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
+
+## Provider Notes
+
+- The longer synthesis stages benefit from a model with strong reasoning and a generous context window.
+- Extraction, classification, and formatting steps generally run well on smaller or faster models.
+- Because there are no vendor-specific integrations here, provider choice is mostly a trade-off between speed, quality, and cost.
+
+## Example Input
+
+To test this workflow immediately after import:
+
+```
+A Broad Subject Area: "Paste the relevant brief, notes, source material, or dataset here."
+```
+

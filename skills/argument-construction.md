@@ -5,7 +5,7 @@ title: Argument Construction
 description: "Builds logically sound academic arguments with clear claims, evidence chains, and counterargument handling"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: academic-writing-standards
     type: references

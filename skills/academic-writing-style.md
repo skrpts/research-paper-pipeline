@@ -5,7 +5,7 @@ title: Academic Writing Style
 description: "Applies discipline-appropriate academic writing conventions including register, hedging, paragraph structure, and stylistic consistency"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: academic-writing-standards
     type: references

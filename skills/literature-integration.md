@@ -5,7 +5,7 @@ title: Literature Integration
 description: "Synthesises academic sources into coherent literature reviews with proper citation integration and critical analysis"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: academic-writing-standards
     type: references

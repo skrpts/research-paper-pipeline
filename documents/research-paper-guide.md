@@ -2,7 +2,7 @@
 type: document
 id: research-paper-guide
 title: Research Paper Guide
-description: "Comprehensive guide to writing an A-grade research paper, covering every stage from topic selection to final submission"
+description: "Complete guide to writing an A-grade research paper, covering every stage from topic selection to final submission"
 tags: [Production, Customer-Facing]
 connections:
   - target: academic-writing-standards

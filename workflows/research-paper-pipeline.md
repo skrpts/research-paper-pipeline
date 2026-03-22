@@ -113,7 +113,19 @@ Stages 1-3 are strictly sequential — each depends on the previous output. Stag
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.a_broad_subject_area}}` | Yes | A broad subject area or assignment brief | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.a_broad_subject_area}}` | Yes | A broad subject area or assignment brief | `The impact of social media on political polarisation` |
+| `{{input.discipline}}` | Yes | Academic discipline | `Political Science` |
+| `{{input.academic_level}}` | Yes | Academic level of the student | `Final-year undergraduate` |
+| `{{input.word_count}}` | Yes | Target word count for the paper | `5000` |
+| `{{input.assignment_type}}` | No | Type of assignment | `Essay` |
+| `{{input.assignment_requirements}}` | No | Specific requirements from the assignment brief | `Must include at least 15 sources, APA format` |
+| `{{input.referencing_style}}` | No | Referencing style to use | `APA` |
+| `{{input.existing_sources}}` | No | Sources the student has already identified | `Smith (2023), Jones & Brown (2024)` |
+| `{{input.target_source_count}}` | No | Number of sources to aim for | `20` |
+| `{{input.preliminary_position}}` | No | Student's preliminary position on the topic | `I think social media increases polarisation through echo chambers` |
+| `{{input.section_name}}` | No | Which section to draft | `Introduction` |
+| `{{input.section_word_count}}` | No | Target word count for the section being drafted | `800` |
+| `{{input.student_concerns}}` | No | Any specific concerns about the draft | `I'm not sure my conclusion is strong enough` |
 
 ## Outputs
 

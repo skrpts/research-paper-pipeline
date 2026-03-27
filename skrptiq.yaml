@@ -19,7 +19,8 @@ tags:
   - "thesis"
 
 requires:
-  services: []
+  services:
+    - "llm-service"
   permissions: []
   data_handling:
     - "academic-sources"

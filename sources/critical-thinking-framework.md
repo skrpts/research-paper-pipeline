@@ -3,7 +3,7 @@ type: source
 id: critical-thinking-framework
 title: Critical Thinking Framework
 description: "Framework for evaluating arguments and reasoning in academic writing"
-tags: [Production]
+tags: [Production, writing:academic, research:literature]
 connections: []
 ---
 

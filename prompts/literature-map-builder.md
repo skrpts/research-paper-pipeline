@@ -3,7 +3,7 @@ type: prompt
 id: literature-map-builder
 title: Literature Map Builder
 description: "Maps the key literature landscape for a research question, identifying seminal works, themes, and gaps"
-tags: [Production]
+tags: [Production, planning:research, research:literature]
 connections:
   - target: literature-integration
     type: derived_from

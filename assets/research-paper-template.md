@@ -3,7 +3,7 @@ type: asset
 id: research-paper-template
 title: Research Paper Template
 description: "Structural template for an academic research paper with section guidance and word count allocation"
-tags: [Production, Customer-Facing]
+tags: [Production, Customer-Facing, writing:academic, research:literature]
 connections:
   - target: academic-writing-standards
     type: references

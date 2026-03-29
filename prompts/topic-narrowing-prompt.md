@@ -3,7 +3,7 @@ type: prompt
 id: topic-narrowing-prompt
 title: Topic Narrowing Prompt
 description: "Narrows a broad subject area into a focused, arguable research question with defined scope"
-tags: [Production]
+tags: [Production, planning:research, writing:academic]
 connections:
   - target: argument-construction
     type: derived_from

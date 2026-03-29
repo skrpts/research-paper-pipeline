@@ -3,7 +3,7 @@ type: skill
 id: academic-writing-style
 title: Academic Writing Style
 description: "Applies discipline-appropriate academic writing conventions including register, hedging, paragraph structure, and stylistic consistency"
-tags: [Production, Tested]
+tags: [Production, Tested, writing:academic, research:literature]
 connections:
   - target: llm-service
     type: runs_on

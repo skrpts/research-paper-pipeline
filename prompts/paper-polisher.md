@@ -3,7 +3,7 @@ type: prompt
 id: paper-polisher
 title: Paper Polisher
 description: "Polishes a complete draft for clarity, flow, argument strength, citation accuracy, and stylistic consistency"
-tags: [Production]
+tags: [Production, writing:academic, research:citations]
 connections:
   - target: academic-writing-style
     type: derived_from

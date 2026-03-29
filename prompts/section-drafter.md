@@ -3,7 +3,7 @@ type: prompt
 id: section-drafter
 title: Section Drafter
 description: "Drafts individual paper sections with proper academic structure, integrated citations, and clear argumentation"
-tags: [Production]
+tags: [Production, writing:academic, research:citations]
 connections:
   - target: academic-writing-style
     type: derived_from

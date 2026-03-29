@@ -3,7 +3,7 @@ type: workflow
 id: research-paper-pipeline
 title: Research Paper Pipeline
 description: "End-to-end workflow for producing a polished academic research paper, from topic selection through to final submission-ready draft"
-tags: [Production, Tested]
+tags: [Production, Tested, writing:academic, research:literature]
 connections:
   - target: argument-construction
     type: uses

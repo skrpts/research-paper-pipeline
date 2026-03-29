@@ -3,7 +3,7 @@ type: skill
 id: literature-integration
 title: Literature Integration
 description: "Synthesises academic sources into coherent literature reviews with proper citation integration and critical analysis"
-tags: [Production, Tested]
+tags: [Production, Tested, research:literature, research:citations]
 connections:
   - target: llm-service
     type: runs_on

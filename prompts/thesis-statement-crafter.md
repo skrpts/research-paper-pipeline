@@ -3,7 +3,7 @@ type: prompt
 id: thesis-statement-crafter
 title: Thesis Statement Crafter
 description: "Crafts a defensible thesis statement with supporting arguments and anticipated counterarguments"
-tags: [Production, writing:academic, research:literature]
+tags: [Production, Academic, Research]
 connections:
   - target: argument-construction
     type: derived_from

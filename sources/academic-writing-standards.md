@@ -3,7 +3,7 @@ type: source
 id: academic-writing-standards
 title: Academic Writing Standards
 description: "Reference guide to academic writing conventions by discipline, covering structure, citation styles, register, and formatting expectations"
-tags: [Production, Customer-Facing, writing:academic, research:citations]
+tags: [Production, Customer-Facing, Academic, Citations, Writing]
 connections:
   - target: research-paper-guide
     type: references

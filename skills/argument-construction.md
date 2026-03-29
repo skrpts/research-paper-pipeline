@@ -3,7 +3,7 @@ type: skill
 id: argument-construction
 title: Argument Construction
 description: "Builds logically sound academic arguments with clear claims, evidence chains, and counterargument handling"
-tags: [Production, Tested, writing:academic, research:literature]
+tags: [Production, Tested, Academic, Research]
 connections:
   - target: llm-service
     type: runs_on

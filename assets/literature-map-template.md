@@ -3,7 +3,7 @@ type: asset
 id: literature-map-template
 title: Literature Map Template
 description: "Template for mapping the scholarly landscape around a research question, organising sources by theme, relationship, and relevance"
-tags: [Production, Customer-Facing, planning:research, research:literature]
+tags: [Production, Customer-Facing, Academic, Research]
 connections:
   - target: academic-writing-standards
     type: references

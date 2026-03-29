@@ -11,6 +11,8 @@ connections:
     type: uses
   - target: academic-writing-style
     type: uses
+  - target: citation-extraction
+    type: uses
   - target: topic-narrowing-prompt
     type: uses
   - target: literature-map-builder
@@ -21,11 +23,15 @@ connections:
     type: uses
   - target: paper-polisher
     type: uses
+  - target: extract-citations
+    type: uses
   - target: llm-service
     type: runs_on
   - target: academic-writing-standards
     type: references
   - target: research-paper-guide
+    type: references
+  - target: critical-thinking-framework
     type: references
   - target: research-paper-template
     type: uses

@@ -41,6 +41,8 @@ metadata:
   estimated_duration: "45-90 minutes"
   avg_tokens: 15000
   trigger: manual
+  - target: plan-studies
+    type: uses
 ---
 
 ## Research Paper Pipeline

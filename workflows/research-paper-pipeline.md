@@ -37,8 +37,6 @@ connections:
     type: uses
   - target: literature-map-template
     type: uses
-  - target: plan-studies
-    type: uses
 metadata:
   estimated_duration: "45-90 minutes"
   avg_tokens: 15000

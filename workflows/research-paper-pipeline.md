@@ -21,8 +21,6 @@ connections:
     type: uses
   - target: section-drafter
     type: uses
-  - target: paper-polisher
-    type: uses
   - target: extract-citations
     type: uses
   - target: llm-service
@@ -36,6 +34,12 @@ connections:
   - target: research-paper-template
     type: uses
   - target: literature-map-template
+    type: uses
+  - target: language-polish
+    type: uses
+  - target: consistency-check
+    type: uses
+  - target: evidence-claim-check
     type: uses
 metadata:
   estimated_duration: "45-90 minutes"

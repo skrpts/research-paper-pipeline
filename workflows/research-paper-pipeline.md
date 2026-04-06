@@ -13,16 +13,6 @@ connections:
     type: uses
   - target: citation-extraction
     type: uses
-  - target: topic-narrowing-prompt
-    type: uses
-  - target: literature-map-builder
-    type: uses
-  - target: thesis-statement-crafter
-    type: uses
-  - target: section-drafter
-    type: uses
-  - target: extract-citations
-    type: uses
   - target: llm-service
     type: runs_on
   - target: academic-writing-standards

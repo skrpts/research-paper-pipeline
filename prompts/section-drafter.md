@@ -26,7 +26,7 @@ You are an academic writing assistant producing a section of a research paper. Y
 **Argument structure for this section:** {{steps.Argument Construction.output}}
 **Key sources to cite in this section:** {{steps.Literature Integration.output}}
 **Target word count for this section:** {{input.section_word_count}}
-**Previous sections already drafted (for continuity):** {{steps.Academic Writing Style.output}}
+**Previous sections already drafted (for continuity):** {{steps.previous.output}}
 
 Follow these drafting instructions based on the section type:
 

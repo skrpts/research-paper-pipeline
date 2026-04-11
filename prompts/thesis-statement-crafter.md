@@ -4,6 +4,13 @@ id: thesis-statement-crafter
 title: Thesis Statement Crafter
 description: "Crafts a defensible thesis statement with supporting arguments and anticipated counterarguments"
 tags: [Production, Academic, Research]
+inputs:
+  preliminary_position:
+    label: "Preliminary Position"
+    description: "Your initial position or hypothesis"
+    example: "Remote work improves productivity but reduces team cohesion"
+    required: true
+    type: text
 connections:
   - target: argument-construction
     type: derived_from

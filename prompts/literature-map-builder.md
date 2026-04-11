@@ -4,6 +4,25 @@ id: literature-map-builder
 title: Literature Map Builder
 description: "Maps the key literature landscape for a research question, identifying seminal works, themes, and gaps"
 tags: [Production, Academic, Research]
+inputs:
+  referencing_style:
+    label: "Referencing Style"
+    description: "The referencing format to use throughout"
+    example: "APA 7th Edition"
+    required: true
+    type: text
+  existing_sources:
+    label: "Existing Sources"
+    description: "Sources already identified or collected"
+    example: "[List of papers/sources already reviewed]"
+    required: true
+    type: text
+  target_source_count:
+    label: "Target Source Count"
+    description: "How many sources to include in the review"
+    example: "15"
+    required: true
+    type: text
 connections:
   - target: literature-integration
     type: derived_from

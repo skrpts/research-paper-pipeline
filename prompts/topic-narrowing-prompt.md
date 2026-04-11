@@ -4,6 +4,42 @@ id: topic-narrowing-prompt
 title: Topic Narrowing Prompt
 description: "Narrows a broad subject area into a focused, arguable research question with defined scope"
 tags: [Production, Academic, Research]
+inputs:
+  a_broad_subject_area:
+    label: "Subject Area"
+    description: "The broad subject area to explore"
+    example: "Environmental Science"
+    required: true
+    type: text
+  discipline:
+    label: "Discipline"
+    description: "Discipline"
+    required: true
+    type: text
+  academic_level:
+    label: "Academic Level"
+    description: "The academic level — affects vocabulary, complexity, and depth of analysis"
+    example: "Masters degree"
+    required: true
+    type: text
+  word_count:
+    label: "Word Count"
+    description: "Target word count for the output"
+    example: "2000"
+    required: true
+    type: text
+  assignment_type:
+    label: "Assignment Type"
+    description: "The type of assignment"
+    example: "Research essay"
+    required: true
+    type: text
+  assignment_requirements:
+    label: "Assignment Requirements"
+    description: "Specific requirements for the assignment"
+    example: "Must include at least 8 academic sources. Harvard referencing."
+    required: true
+    type: text
 connections:
   - target: argument-construction
     type: derived_from

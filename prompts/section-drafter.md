@@ -4,6 +4,19 @@ id: section-drafter
 title: Section Drafter
 description: "Drafts individual paper sections with proper academic structure, integrated citations, and clear argumentation"
 tags: [Production, Academic, Citations]
+inputs:
+  section_name:
+    label: "Section Name"
+    description: "The name of the section"
+    example: "Methodology"
+    required: true
+    type: text
+  section_word_count:
+    label: "Section Word Count"
+    description: "Target word count for this section"
+    example: "500"
+    required: true
+    type: text
 connections:
   - target: academic-writing-style
     type: derived_from

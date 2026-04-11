@@ -35,6 +35,24 @@ metadata:
   estimated_duration: "45-90 minutes"
   avg_tokens: 15000
   trigger: manual
+execution:
+  - skill: "argument-construction"
+  - skill: "literature-integration"
+    input_from: "argument-construction"
+  - skill: "academic-writing-style"
+    input_from: "literature-integration"
+  - skill: "citation-extraction"
+    input_from: "academic-writing-style"
+  - skill: "research-paper-template"
+    input_from: "citation-extraction"
+  - skill: "literature-map-template"
+    input_from: "research-paper-template"
+  - skill: "language-polish"
+    input_from: "literature-map-template"
+  - skill: "consistency-check"
+    input_from: "literature-map-template"
+  - skill: "evidence-claim-check"
+    input_from: "literature-map-template"
 ---
 
 ## Research Paper Pipeline

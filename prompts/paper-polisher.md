@@ -40,7 +40,7 @@ Review and improve across five dimensions:
 
 ### Output
 
-Produce the polished paper with all improvements applied inline. After the paper, add a **Revision Notes** section listing the substantive changes made (not typo fixes — only changes to argument, structure, or meaning).
+Produce the COMPLETE polished paper with all improvements applied inline. After the paper, add a **Revision Notes** section listing the substantive changes made (not typo fixes — only changes to argument, structure, or meaning).
 
 ## Formatting Rules
 

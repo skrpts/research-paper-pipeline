@@ -35,6 +35,17 @@ metadata:
   estimated_duration: "45-90 minutes"
   avg_tokens: 15000
   trigger: manual
+output_step: "academic-writing-style"
+composite_steps:
+  - "argument-construction"
+  - "literature-integration"
+  - "academic-writing-style"
+  - "citation-extraction"
+  - "research-paper-template"
+  - "literature-map-template"
+  - "language-polish"
+  - "consistency-check"
+  - "evidence-claim-check"
 execution:
   - skill: "argument-construction"
     step_type: "generation"

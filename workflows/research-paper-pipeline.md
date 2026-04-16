@@ -55,6 +55,8 @@ execution:
     step_type: "content"
   - skill: "citation-extraction"
     step_type: "synthesis"
+    context:
+      citation_style: "Harvard"
   - skill: "research-paper-template"
     step_type: "generation"
   - skill: "literature-map-template"

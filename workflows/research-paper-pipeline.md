@@ -49,10 +49,12 @@ composite_steps:
 execution:
   - skill: "argument-construction"
     step_type: "generation"
+    prompt: "thesis-statement-crafter"
   - skill: "literature-integration"
     step_type: "synthesis"
   - skill: "academic-writing-style"
     step_type: "content"
+    prompt: "section-drafter"
   - skill: "citation-extraction"
     step_type: "synthesis"
     context:

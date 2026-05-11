@@ -69,13 +69,21 @@ execution:
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    context:
+      voice_profile: ""
+      grammar_strictness: ""
   - parallel:
     - skill: "evidence-claim-check"
       prompt: "check-evidence-claims"
       step_type: "review"
+      context:
+        evidence_rigour: ""
   - skill: "consistency-check"
     prompt: "check-consistency"
     step_type: "review"
+    context:
+      voice_profile: ""
+      consistency_strictness: ""
 ---
 
 ## Research Paper Pipeline

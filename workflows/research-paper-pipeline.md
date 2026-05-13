@@ -62,7 +62,7 @@ execution:
     context:
       citation_style: "Harvard"
   - skill: "research-paper-template"
-    step_type: "generation"
+    step_type: "local.template"
   - skill: "literature-map-template"
     prompt: "literature-map-builder"
     step_type: "synthesis"
@@ -70,20 +70,20 @@ execution:
     prompt: "polish-language"
     step_type: "content"
     context:
-      voice_profile: ""
-      grammar_strictness: ""
+      voice_profile: "Neutral professional tone"
+      grammar_strictness: "Professional"
   - parallel:
     - skill: "evidence-claim-check"
       prompt: "check-evidence-claims"
       step_type: "review"
       context:
-        evidence_rigour: ""
+        evidence_rigour: "Standard"
   - skill: "consistency-check"
     prompt: "check-consistency"
     step_type: "review"
     context:
-      voice_profile: ""
-      consistency_strictness: ""
+      voice_profile: "Neutral professional tone"
+      consistency_strictness: "Standard"
 ---
 
 ## Research Paper Pipeline

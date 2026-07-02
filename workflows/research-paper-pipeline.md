@@ -50,25 +50,32 @@ execution:
   - skill: "argument-construction"
     step_type: "generation"
     prompt: "thesis-statement-crafter"
+    output: { name: "thesis", type: "text" }
   - skill: "literature-integration"
     prompt: "literature-map-builder"
     step_type: "synthesis"
+    output: { name: "literature_map", type: "text" }
   - skill: "academic-writing-style"
     step_type: "content"
     prompt: "section-drafter"
+    output: { name: "draft", type: "text" }
   - skill: "citation-extraction"
     prompt: "extract-citations"
     step_type: "synthesis"
+    output: { name: "citations", type: "list" }
     context:
       citation_style: "Harvard"
   - skill: "research-paper-template"
     step_type: "local.template"
+    output: { name: "paper_template", type: "text" }
   - skill: "literature-map-template"
     prompt: "literature-map-builder"
     step_type: "synthesis"
+    output: { name: "literature_map_doc", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_paper", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
@@ -76,11 +83,13 @@ execution:
     - skill: "evidence-claim-check"
       prompt: "check-evidence-claims"
       step_type: "review"
+      output: { name: "evidence_report", type: "text" }
       context:
         evidence_rigour: "Standard"
   - skill: "consistency-check"
     prompt: "check-consistency"
     step_type: "review"
+    output: { name: "consistency_verdict", type: "decision" }
     context:
       voice_profile: "Neutral professional tone"
       consistency_strictness: "Standard"

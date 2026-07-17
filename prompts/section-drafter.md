@@ -45,11 +45,11 @@ Follow these drafting instructions based on the section type:
 
 **If Introduction:** Open with a contextualising statement that establishes the topic's significance. Narrow from the general context to the specific research question within two to three paragraphs. State the thesis clearly. Preview the paper's structure without reducing it to a mechanical list ("This essay will first... then... finally..."). Establish the scholarly conversation that the paper enters.
 
-**If Literature Review:** Organise by thematic cluster, not source by source. Each paragraph should synthesise multiple sources around a shared theme or finding. Use the literature to build toward the gap or tension that the thesis addresses. Ensure a balance of integral and non-integral citations. Close by identifying the specific gap that the paper fills.
+**If Literature Review:** Organize by thematic cluster, not source by source. Each paragraph should synthesize multiple sources around a shared theme or finding. Use the literature to build toward the gap or tension that the thesis addresses. Ensure a balance of integral and non-integral citations. Close by identifying the specific gap that the paper fills.
 
 **If Body Section (argument development):** Open with a topic sentence that states the section's core claim. Present evidence systematically, with each paragraph building on the last. Integrate citations as support for analytical claims, not as standalone summaries. Address the relevant counterargument identified in the argument map. Close by linking this section's argument to the overall thesis and transitioning to the next section.
 
-**If Conclusion:** Restate the thesis in light of the evidence presented (not word-for-word repetition). Synthesise the key arguments, showing how they combine to support the thesis. Acknowledge limitations honestly. Identify directions for future research. End with a closing statement that reinforces the paper's contribution to the field.
+**If Conclusion:** Restate the thesis in light of the evidence presented (not word-for-word repetition). Synthesize the key arguments, showing how they combine to support the thesis. Acknowledge limitations honestly. Identify directions for future research. End with a closing statement that reinforces the paper's contribution to the field.
 
 **For all sections:**
 - Maintain the academic register defined by the discipline and level

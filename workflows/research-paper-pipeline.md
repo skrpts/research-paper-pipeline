@@ -65,10 +65,10 @@ execution:
     output: { name: "citations", type: "list" }
     context:
       citation_style: "Harvard"
-  - skill: "research-paper-template"
+  - id: "research-paper-template"
     step_type: "local.template"
     output: { name: "paper_template", type: "text" }
-  - skill: "literature-map-template"
+  - id: "literature-map-template"
     prompt: "literature-map-builder"
     step_type: "synthesis"
     output: { name: "literature_map_doc", type: "text" }
@@ -126,7 +126,7 @@ With the research question established, this stage maps the scholarly landscape.
 **Skills used:** `argument-construction`
 **Output:** A thesis statement with three supporting arguments and anticipated counterarguments
 
-This stage synthesises the research question and literature review into a defensible thesis. The argument construction skill ensures the thesis is specific, contestable, and supported by the available evidence.
+This stage synthesizes the research question and literature review into a defensible thesis. The argument construction skill ensures the thesis is specific, contestable, and supported by the available evidence.
 
 **Error handling:** The prompt includes a strength-test checklist. If the thesis fails any criterion (specificity, contestability, evidence support), it provides targeted revision guidance.
 
@@ -141,9 +141,9 @@ The drafting stage works section by section through the paper. Each section is d
 
 **Execution order:**
 1. Introduction (contextualises the research question and previews the argument)
-2. Literature review (synthesises sources identified in Stage 2)
+2. Literature review (synthesizes sources identified in Stage 2)
 3. Body sections (one per supporting argument from Stage 3)
-4. Conclusion (synthesises findings and identifies future research directions)
+4. Conclusion (synthesizes findings and identifies future research directions)
 
 **Error handling:** Each section draft is checked against the `academic-writing-standards` source for disciplinary conventions. If a section is under the expected word count or lacks sufficient citations, the drafter flags it for expansion.
 
@@ -200,7 +200,7 @@ Stages 1-3 are strictly sequential — each depends on the previous output. Stag
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes

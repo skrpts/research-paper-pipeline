@@ -2,7 +2,7 @@
 type: skill
 id: literature-integration
 title: Literature Integration
-description: "Synthesises academic sources into coherent literature reviews with proper citation integration and critical analysis"
+description: "Synthesizes academic sources into coherent literature reviews with proper citation integration and critical analysis"
 tags: [Production, Tested, Academic, Citations, Research]
 connections:
   - target: llm-service
@@ -17,7 +17,7 @@ metadata:
 
 ## Literature Integration
 
-This skill handles the synthesis of academic sources into coherent, critically engaged prose. It moves beyond simple summarisation to produce genuine literature integration — identifying patterns, tensions, and gaps across multiple sources.
+This skill handles the synthesis of academic sources into coherent, critically engaged prose. It moves beyond simple summarization to produce genuine literature integration — identifying patterns, tensions, and gaps across multiple sources.
 
 ### Core Capabilities
 
@@ -27,9 +27,9 @@ This skill handles the synthesis of academic sources into coherent, critically e
 
 **Critical Engagement:** Rather than simply reporting what each source says, this skill evaluates sources critically. It identifies methodological strengths and limitations, assesses the relevance of findings to the current research question, notes where findings conflict or converge, and positions each source within the broader scholarly conversation.
 
-**Gap Identification:** A strong literature review does more than summarise — it identifies what is missing. This skill analyses the collected sources to find underexplored questions, methodological approaches not yet tried, populations or contexts not yet studied, and theoretical tensions not yet resolved. These gaps provide the justification for the student's own research.
+**Gap Identification:** A strong literature review does more than summarize — it identifies what is missing. This skill analyzes the collected sources to find underexplored questions, methodological approaches not yet tried, populations or contexts not yet studied, and theoretical tensions not yet resolved. These gaps provide the justification for the student's own research.
 
-**Narrative Structure:** Literature reviews require a clear organisational logic. This skill can structure reviews thematically (grouped by topic or concept), chronologically (tracing the development of an idea over time), methodologically (grouped by research approach), or theoretically (organised around competing frameworks). The choice depends on the discipline, the research question, and the sources available.
+**Narrative Structure:** Literature reviews require a clear organisational logic. This skill can structure reviews thematically (grouped by topic or concept), chronologically (tracing the development of an idea over time), methodologically (grouped by research approach), or theoretically (organized around competing frameworks). The choice depends on the discipline, the research question, and the sources available.
 
 ### Constraints
 

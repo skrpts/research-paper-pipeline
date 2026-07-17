@@ -2,7 +2,7 @@
 type: asset
 id: literature-map-template
 title: Literature Map Template
-description: "Template for mapping the scholarly landscape around a research question, organising sources by theme, relationship, and relevance"
+description: "Template for mapping the scholarly landscape around a research question, organizing sources by theme, relationship, and relevance"
 tags: [Production, Customer-Facing, Academic, Research]
 connections:
   - target: academic-writing-standards
@@ -14,7 +14,7 @@ metadata:
 
 ## Literature Map
 
-Use this template to organise your sources before writing. A good literature map shows not just what each source says, but how sources relate to each other and to your research question.
+Use this template to organize your sources before writing. A good literature map shows not just what each source says, but how sources relate to each other and to your research question.
 
 ---
 
@@ -47,7 +47,7 @@ Use this template to organise your sources before writing. A good literature map
 
 **Relationships between sources:**
 - {{author_1}} established the foundational framework that {{author_2}} later challenged by...
-- {{author_3}} builds on both, synthesising their approaches to argue that...
+- {{author_3}} builds on both, synthesizing their approaches to argue that...
 
 **Gaps identified:**
 - {{gap_description}}

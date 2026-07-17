@@ -19,7 +19,7 @@ This source provides a reference guide to the conventions that govern academic w
 ### Sciences (Biology, Chemistry, Physics, Environmental Science)
 
 **Structure:** IMRaD (Introduction, Methods, Results, and Discussion). Some fields accept variations such as a combined Results and Discussion section.
-**Voice:** Third person, predominantly passive ("The samples were analysed..."). First person is increasingly accepted in some journals but remains uncommon in student work.
+**Voice:** Third person, predominantly passive ("The samples were analyzed..."). First person is increasingly accepted in some journals but remains uncommon in student work.
 **Citation style:** Typically Vancouver (numbered) or APA (author-date), depending on the institution.
 **Hedging conventions:** Strong hedging expected for novel findings ("These results suggest..." rather than "This proves..."). Quantitative hedging is common ("approximately," "a significant proportion").
 **Paragraph length:** Short to medium (80-150 words). Dense, concise paragraphs are preferred.
@@ -36,7 +36,7 @@ This source provides a reference guide to the conventions that govern academic w
 
 ### Humanities (English Literature, History, Philosophy, Classics)
 
-**Structure:** Essay format — introduction with thesis, body paragraphs organised by argument, conclusion. No methods or results sections.
+**Structure:** Essay format — introduction with thesis, body paragraphs organized by argument, conclusion. No methods or results sections.
 **Voice:** First person is widely accepted and often expected ("I argue that..."). The author's interpretive stance is central.
 **Citation style:** Chicago (notes-bibliography) or MLA, depending on the discipline. History uses Chicago. Literary studies use MLA or Chicago.
 **Hedging conventions:** More assertive argumentation is expected. Excessive hedging is seen as weak. "I argue" is preferred to "It could be suggested."
@@ -66,7 +66,7 @@ This source provides a reference guide to the conventions that govern academic w
 **Structure:** Report format with executive summary, or essay format depending on the assignment.
 **Voice:** Third person for academic work. First person acceptable for reflective assignments.
 **Citation style:** Harvard or APA.
-**Hedging conventions:** Moderate. Claims about market behaviour and organisational outcomes require evidential support.
+**Hedging conventions:** Moderate. Claims about market behavior and organisational outcomes require evidential support.
 **Paragraph length:** Medium (100-180 words).
 **Key conventions:** Framework application (SWOT, Porter's Five Forces, etc.), data-driven analysis, practical recommendations, industry examples.
 
@@ -75,5 +75,5 @@ This source provides a reference guide to the conventions that govern academic w
 - **Academic integrity:** All ideas from other sources must be attributed. Paraphrase is preferred over direct quotation except where the exact wording matters.
 - **Paragraph structure:** Topic sentence → development → evidence → analysis → link to next point.
 - **Introduction conventions:** Context → narrowing → research question/thesis → paper overview.
-- **Conclusion conventions:** Restate thesis (reworded) → synthesise arguments → acknowledge limitations → future directions → closing statement.
+- **Conclusion conventions:** Restate thesis (reworded) → synthesize arguments → acknowledge limitations → future directions → closing statement.
 - **Formatting:** Consistent heading hierarchy, 12pt readable font, appropriate line spacing, page numbers, title page where required.

@@ -21,7 +21,7 @@ This skill governs the stylistic and structural conventions of academic writing.
 
 ### Core Capabilities
 
-**Register Calibration:** Academic writing operates within a specific register — formal, precise, and evidence-grounded. This skill adjusts the formality level to match disciplinary norms. Scientific writing tends toward impersonal, passive constructions ("It was observed that..."), whilst humanities writing increasingly accepts first-person positioning ("I argue that..."). The skill calibrates based on the student's discipline, institution, and stated preferences.
+**Register Calibration:** Academic writing operates within a specific register — formal, precise, and evidence-grounded. This skill adjusts the formality level to match disciplinary norms. Scientific writing tends toward impersonal, passive constructions ("It was observed that..."), while humanities writing increasingly accepts first-person positioning ("I argue that..."). The skill calibrates based on the student's discipline, institution, and stated preferences.
 
 **Hedging and Certainty:** Academic writing requires careful modulation of certainty. This skill applies appropriate hedging language ("suggests," "appears to indicate," "may contribute to") where findings are tentative, and stronger assertions ("demonstrates," "establishes," "confirms") where evidence is robust. Over-hedging weakens arguments; under-hedging overstates evidence. The skill finds the disciplinary sweet spot.
 

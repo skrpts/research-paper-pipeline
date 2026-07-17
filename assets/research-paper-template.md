@@ -74,11 +74,11 @@ Word count: {{actual_word_count}}
 
 *Target: 20-30% of total word count*
 
-Organise by theme, not by source. Each sub-section should address a thematic cluster identified in your literature map.
+Organize by theme, not by source. Each sub-section should address a thematic cluster identified in your literature map.
 
 #### 2.1 {{theme_1_name}}
 
-Synthesise the key sources related to this theme. Show how they relate to each other and to your research question.
+Synthesize the key sources related to this theme. Show how they relate to each other and to your research question.
 
 #### 2.2 {{theme_2_name}}
 
@@ -97,21 +97,21 @@ Identify the gap or tension in the literature that your thesis addresses. This s
 #### 3.1 {{argument_1_title}}
 
 **Claim:** State the first supporting argument clearly.
-**Evidence:** Present and analyse the evidence supporting this claim.
+**Evidence:** Present and analyze the evidence supporting this claim.
 **Counterargument:** Acknowledge and respond to the strongest objection.
 **Link:** Connect this argument to the overall thesis and transition to the next section.
 
 #### 3.2 {{argument_2_title}}
 
 **Claim:** State the second supporting argument.
-**Evidence:** Present and analyse supporting evidence.
+**Evidence:** Present and analyze supporting evidence.
 **Counterargument:** Address objections.
 **Link:** Transition to the next section.
 
 #### 3.3 {{argument_3_title}}
 
 **Claim:** State the third supporting argument.
-**Evidence:** Present and analyse supporting evidence.
+**Evidence:** Present and analyze supporting evidence.
 **Counterargument:** Address objections.
 **Synthesis:** Show how all three arguments combine to support the thesis.
 
@@ -123,7 +123,7 @@ Identify the gap or tension in the literature that your thesis addresses. This s
 
 **Thesis restatement** (1-2 sentences): Restate the thesis in light of the evidence presented. Do not copy the original wording verbatim.
 
-**Argument synthesis** (1-2 paragraphs): Summarise how each supporting argument contributed to the overall case. Emphasise the cumulative weight of the evidence.
+**Argument synthesis** (1-2 paragraphs): Summarize how each supporting argument contributed to the overall case. Emphasize the cumulative weight of the evidence.
 
 **Limitations** (1 paragraph): Acknowledge the limitations of your analysis honestly. What could you not cover? What assumptions did you make?
 

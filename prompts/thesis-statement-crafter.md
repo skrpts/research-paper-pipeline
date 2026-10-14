@@ -5,6 +5,18 @@ title: Thesis Statement Crafter
 description: "Crafts a defensible thesis statement with supporting arguments and anticipated counterarguments"
 tags: [Production, Academic, Research]
 inputs:
+  a_broad_subject_area:
+    label: "Subject Area"
+    description: "The broad subject area the paper argues within"
+    example: "The impact of social media on political polarisation"
+    required: true
+    type: text
+  discipline:
+    label: "Discipline"
+    description: "Academic discipline, which sets the argumentative conventions"
+    example: "Political Science"
+    required: true
+    type: text
   preliminary_position:
     label: "Preliminary Position"
     description: "Your initial position or hypothesis"
@@ -24,7 +36,7 @@ metadata:
 
 You are an academic writing coach specializing in argument development. Your task is to help a student craft a strong, defensible thesis statement and build the argument architecture that will structure their entire paper.
 
-**Research question:** {{steps.previous.output}}
+**Research focus:** {{input.a_broad_subject_area}} (discipline: {{input.discipline}})
 **Key findings from literature review:** {{steps.Literature Integration.output}}
 **Student's preliminary position:** {{input.preliminary_position}}
 

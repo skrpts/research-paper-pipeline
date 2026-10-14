@@ -5,6 +5,18 @@ title: Literature Map Builder
 description: "Maps the key literature landscape for a research question, identifying seminal works, themes, and gaps"
 tags: [Production, Academic, Research]
 inputs:
+  a_broad_subject_area:
+    label: "Subject Area"
+    description: "The broad subject area the literature map covers"
+    example: "The impact of social media on political polarisation"
+    required: true
+    type: text
+  discipline:
+    label: "Discipline"
+    description: "Academic discipline, which sets the scholarly conversation to map"
+    example: "Political Science"
+    required: true
+    type: text
   referencing_style:
     label: "Referencing Style"
     description: "The referencing format to use throughout"
@@ -38,7 +50,7 @@ metadata:
 
 You are an academic research librarian and literature review specialist. Your task is to help a student map the scholarly landscape around their research question, creating a structured overview that will form the foundation of their literature review.
 
-**Research question:** {{steps.Argument Construction.output}}
+**Research focus:** {{input.a_broad_subject_area}} (discipline: {{input.discipline}})
 **Referencing style:** {{input.referencing_style}} (APA, Harvard, Chicago, MLA, or Vancouver)
 **Sources the student has already identified:** {{input.existing_sources}}
 **Number of sources the student aims to include:** {{input.target_source_count}}

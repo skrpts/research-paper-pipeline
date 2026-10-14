@@ -37,8 +37,8 @@ metadata:
   trigger: manual
 output_step: "academic-writing-style"
 composite_steps:
-  - "argument-construction"
   - "literature-integration"
+  - "argument-construction"
   - "academic-writing-style"
   - "citation-extraction"
   - "research-paper-template"
@@ -47,14 +47,14 @@ composite_steps:
   - "consistency-check"
   - "evidence-claim-check"
 execution:
-  - skill: "argument-construction"
-    step_type: "generation"
-    prompt: "thesis-statement-crafter"
-    output: { name: "thesis", type: "text" }
   - skill: "literature-integration"
     prompt: "literature-map-builder"
     step_type: "synthesis"
     output: { name: "literature_map", type: "text" }
+  - skill: "argument-construction"
+    step_type: "generation"
+    prompt: "thesis-statement-crafter"
+    output: { name: "thesis", type: "text" }
   - skill: "academic-writing-style"
     step_type: "content"
     prompt: "section-drafter"
@@ -69,8 +69,7 @@ execution:
     step_type: "local.template"
     output: { name: "paper_template", type: "text" }
   - id: "literature-map-template"
-    prompt: "literature-map-builder"
-    step_type: "synthesis"
+    step_type: "local.template"
     output: { name: "literature_map_doc", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"

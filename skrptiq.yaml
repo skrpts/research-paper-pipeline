@@ -2,7 +2,7 @@ id: "785c2b0b-5b35-43d7-8fc5-c236cb2e9e83"
 name: "research-paper-pipeline"
 display_name: "Research Paper Pipeline"
 description: "Academic research paper writing from topic selection through literature review, argument construction, drafting, and final polish"
-version: "1.1.29"
+version: "1.1.30"
 engine: ">=0.1.0"
 
 author:
@@ -93,7 +93,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-17T20:20:56.421Z"
+  scanned_at: "2026-10-14T21:27:43.711Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"
